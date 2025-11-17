@@ -8,7 +8,8 @@
                 "shell": {
                     "executable": "cmd.exe",
                     "args": ["/c"]
-                }
+                },
+                "cwd": "${workspaceFolder}"
             },
             "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat\" && cl.exe",
             "args": [
@@ -16,18 +17,13 @@
                 "/EHsc",
                 "/Fe:build\\${fileBasenameNoExtension}.exe",
                 "/Fo:build\\",
-                "${file}"
+                "${workspaceFolder}\\src\\ChadaTechClocks.cpp"
             ],
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": [
-                "$msCompile"
-            ]
+            "problemMatcher": ["$msCompile"]
         }
     ]
 }

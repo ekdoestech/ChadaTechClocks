@@ -6,9 +6,9 @@
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe",
+            "cwd": "${workspaceFolder}\\build",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}\\build",
             "environment": [],
             "console": "integratedTerminal",
             "preLaunchTask": "MSVC Build"

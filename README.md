@@ -40,16 +40,17 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 - ✔ Dual 12-hour + 24-hour clock display  
 - ✔ AM/PM formatting logic  
 - ✔ Modular functions for time manipulation  
-- ✔ Full rollover handling  
-- ✔ Input validation for both menu and initial time  
-- ✔ Professional centered-box formatting  
-- ✔ Clean, readable, maintainable C++ design  
+- ✔ Full cascading rollover logic  
+- ✔ Input validation for menu and initial time  
+- ✔ Professionally formatted clock UI  
+- ✔ Clean and readable C++ design 
 
 ---
 
 ## 🛠 Technical Overview
 - **Language:** C++17  
-- **IDE:** Microsoft Visual Studio  
+- **Platform:** Windows (MSVC)  
+- **Editor:** Visual Studio Code  
 - **Paradigm:** Modular procedural design  
 
 
@@ -75,24 +76,39 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 
 ## 📁 File Structure
 ```text
+```text
 ChadaTechClocks/
-├─ ChadaTechClocks.cpp           # Main program source
-├─ ChadaTechClocks.sln           # Visual Studio solution
-├─ ChadaTechClocks.vcxproj       # VS project config
-├─ ChadaTechClocks.vcxproj.filters
+├─ src/
+│  └─ ChadaTechClocks.cpp        # Main program source
+│
+├─ build/                        # Compiled binaries (ignored by git)
+│  ├─ ChadaTechClocks.exe
+│  └─ ChadaTechClocks.obj
+│
+├─ .vscode/                      # VS Code build/debug configuration
+│  ├─ tasks.json                 # MSVC build task
+│  ├─ launch.json                # Debug configuration
+│  └─ c_cpp_properties.json      # IntelliSense settings
+│
+├─ .gitignore
 ├─ .gitattributes
-├─ .gitignore                    # Visual Studio ignores
-└─ README.md                     # Documentation
+├─ LICENSE.txt
+└─ README.md
 ```
 ---
 
 ##   How to Build & Run
+### ✔ Build (VS Code — MSVC)
+Press: Ctrl + Shift + B
+This runs the configured MSVC task and outputs: /build/ChadaTechClocks.exe
 
-### ✔ Using Visual Studio
-1. Open `ChadaTechClocks.sln`
-2. Select **Build → Build Solution**
-3. Select **Debug → Start Without Debugging**  
-   or press **Ctrl + F5**
+### 🐞 Run & Debug (VS Code)
+Press: F5
+The debugger launches with:
+- Breakpoint support
+- Variable inspection
+- Step over / into / out
+- Integrated terminal output
 
 ---
 
@@ -148,9 +164,7 @@ This project is distributed under the **MIT License**.
 ---
 
 ## 👤 Contact
-
 **Erica Kinch**  
-Computer Science Student  
-GitHub: https://github.com/ekdosetech  
-Email: ek.does.tech@gmail.com
-LinkedIn: https://www.linkedin.com/in/erica-kinch/
+📧 ek.does.tech@gmail.com
+🔗 https://github.com/ekdosetech
+🔗LinkedIn: https://www.linkedin.com/in/erica-kinch/
