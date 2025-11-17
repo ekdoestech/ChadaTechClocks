@@ -2,21 +2,32 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "MSVC Build",
             "type": "shell",
-            "command": "g++",
+            "options": {
+                "shell": {
+                    "executable": "cmd.exe",
+                    "args": ["/c"]
+                }
+            },
+            "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat\" && cl.exe",
             "args": [
-                "-std=c++17",
-                "ChadaTechClocks.cpp",
-                "-o",
-                "clocks"
+                "/std:c++17",
+                "/EHsc",
+                "/Fe:build\\${fileBasenameNoExtension}.exe",
+                "/Fo:build\\",
+                "${file}"
             ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": ["$gcc"],
-            "detail": "Build the ChadaTechClock program."
+            "problemMatcher": [
+                "$msCompile"
+            ]
         }
     ]
 }
