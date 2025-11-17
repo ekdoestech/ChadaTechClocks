@@ -1,13 +1,14 @@
 # ⏰ Chada Tech Dual-Clock System  
 A C++ time-display project demonstrating modular design, rollover logic, and user-driven time manipulation.
 
-
+![GitHub release](https://img.shields.io/github/v/release/ekdoestech/ChadaTechClocks)
+![SemVer](https://img.shields.io/badge/semver-2.0.0-lightgrey.svg)
+![Status](https://img.shields.io/badge/stability-stable-brightgreen.svg)
 ![C++](https://img.shields.io/badge/language-C++17-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Visual%20Studio-blueviolet)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![PRs](https://img.shields.io/badge/PRs-welcome-blue.svg)
-![Repo Size](https://img.shields.io/github/repo-size/ekdosetech/ChadaTechClocks)
+![Repo Size](https://img.shields.io/github/repo-size/ekdoestech/ChadaTechClocks)
 
 
 ## ⭐ Project Overview
@@ -166,5 +167,5 @@ This project is distributed under the **MIT License**.
 ## 👤 Contact
 **Erica Kinch**  
 📧 ek.does.tech@gmail.com
-🔗 https://github.com/ekdosetech
+🔗 https://github.com/ekdoestech
 🔗LinkedIn: https://www.linkedin.com/in/erica-kinch/
