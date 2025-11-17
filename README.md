@@ -26,7 +26,7 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 - [Key Features](#-key-features)
 - [Technical Overview](#-technical-overview)
 - [File Structure](#-file-structure)
-- [How to Build & Run](#-how-to-build--run)
+- [How to Build & Run](#how-to-build--run)
 - [Learning Objectives Demonstrated](#-learning-objectives-demonstrated)
 - [Future Enhancements](#-future-enhancements)
 - [Why This Project Matters](#-why-this-project-matters)
@@ -48,14 +48,12 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 ---
 
 ## 🛠 Technical Overview
-
 - **Language:** C++17  
 - **IDE:** Microsoft Visual Studio  
 - **Paradigm:** Modular procedural design  
 
 
 ### 🔧 Core Functions
-
 | Function                | Responsibility                                |
 |-------------------------|-----------------------------------------------|
 | `displayMenu()`         | Prints user menu options                      |
@@ -76,6 +74,7 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 ---
 
 ## 📁 File Structure
+```text
 ChadaTechClocks/
 ├─ ChadaTechClocks.cpp           # Main program source
 ├─ ChadaTechClocks.sln           # Visual Studio solution
@@ -84,8 +83,7 @@ ChadaTechClocks/
 ├─ .gitattributes
 ├─ .gitignore                    # Visual Studio ignores
 └─ README.md                     # Documentation
-
-
+```
 ---
 
 ##   How to Build & Run
