@@ -26,19 +26,32 @@
 using namespace std;
 
 
-/* =============================================================
+/* 
+ * =============================================================
  * Function Declarations
  * =============================================================
  */
 
  // Displays menu options for the user.
-void displayMenu();
+void displayMenu(string menu) {
+	cout << menu;
+}
 
 // Shows the current time in both 12-hour and 24-hour formats.
-void displayClocks(int hour, int minute, int second);
+void displayClocks(int hour, int minute, int second) {
+	// Implementation will be added after structural verification.
+}
 
 // Adds one hour with rollover at 24.
-void addHour(int& hour);
+void addHour(int hour) {
+	if (hour <= 24) {
+		hour++;
+	}
+	else {
+		hour = 1;
+		hour++;
+	}
+}
 
 // Adds one minute and triggers hour rollover when necessary.
 void addMinute(int& minute, int& hour);
