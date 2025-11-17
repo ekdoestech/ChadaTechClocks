@@ -56,7 +56,6 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 
 ### 🔧 Core Functions
 
-|-------------------------------------------------------------------------|
 | Function                | Responsibility                                |
 |-------------------------|-----------------------------------------------|
 | `displayMenu()`         | Prints user menu options                      |
@@ -66,7 +65,6 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 | `addSecond()`           | Cascading rollover: second → minute → hour    |
 | `centerText()`          | Centers text inside a fixed-width field       |
 | `validateInitialTime()` | Ensures initial time values are valid         |
-|-------------------------------------------------------------------------|
 
 ### Design Goals
 - Separation of logic & UI  
@@ -79,13 +77,14 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 
 ## 📁 File Structure
 ChadaTechClocks/
-├── ChadaTechClocks.cpp                 # Main program source
-├── ChadaTechClocks.sln                 # Visual Studio solution
-├── ChadaTechClocks.vcxproj             # VS project file
-├── ChadaTechClocks.vcxproj.filters
-├── .gitattributes
-├── .gitignore                          # Visual Studio ignores
-└── README.md                           # Documentation
+├─ ChadaTechClocks.cpp           # Main program source
+├─ ChadaTechClocks.sln           # Visual Studio solution
+├─ ChadaTechClocks.vcxproj       # VS project config
+├─ ChadaTechClocks.vcxproj.filters
+├─ .gitattributes
+├─ .gitignore                    # Visual Studio ignores
+└─ README.md                     # Documentation
+
 
 ---
 
