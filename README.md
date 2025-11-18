@@ -1,4 +1,4 @@
-# ⏰ Chada Tech Dual-Clock System  
+# Chada Tech Dual-Clock System  
 A C++ time-display project demonstrating modular design, rollover logic, and user-driven time manipulation.
 
 ![GitHub release](https://img.shields.io/github/v/release/ekdoestech/ChadaTechClocks)
@@ -11,7 +11,7 @@ A C++ time-display project demonstrating modular design, rollover logic, and use
 ![Repo Size](https://img.shields.io/github/repo-size/ekdoestech/ChadaTechClocks)
 
 
-## ⭐ Project Overview
+## Project Overview
 This program displays **both 12-hour and 24-hour clocks side by side** in visually formatted boxes.  
 Users can increment the **hour**, **minute**, or **second** via a menu-driven interface, with complete rollover logic:
 
@@ -23,7 +23,7 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 - [Key Features](#-key-features)
 - [Technical Overview](#-technical-overview)
 - [File Structure](#-file-structure)
@@ -37,7 +37,7 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 
 ---
 
-## 🧠 Key Features
+## Key Features
 - ✔ Dual 12-hour + 24-hour clock display  
 - ✔ AM/PM formatting logic  
 - ✔ Modular functions for time manipulation  
@@ -48,14 +48,14 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 
 ---
 
-## 🛠 Technical Overview
+## Technical Overview
 - **Language:** C++17  
 - **Platform:** Windows (MSVC)  
 - **Editor:** Visual Studio Code  
 - **Paradigm:** Modular procedural design  
 
 
-### 🔧 Core Functions
+### Core Functions
 | Function                | Responsibility                                |
 |-------------------------|-----------------------------------------------|
 | `displayMenu()`         | Prints user menu options                      |
@@ -75,7 +75,7 @@ Originally built for **CS 210 – Programming Languages**, now evolving into a p
 
 ---
 
-## 📁 File Structure
+## File Structure
 ```text
 ```text
 ChadaTechClocks/
@@ -103,7 +103,7 @@ ChadaTechClocks/
 Press: Ctrl + Shift + B
 This runs the configured MSVC task and outputs: /build/ChadaTechClocks.exe
 
-### 🐞 Run & Debug (VS Code)
+### Run & Debug (VS Code)
 Press: F5
 The debugger launches with:
 - Breakpoint support
@@ -113,7 +113,7 @@ The debugger launches with:
 
 ---
 
-## 🎓 Learning Objectives Demonstrated
+## Learning Objectives Demonstrated
 
 - Modular C++ program structure  
 - Function declarations & definitions  
@@ -127,18 +127,18 @@ The debugger launches with:
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
-- ⏱ Real-time ticking using `<chrono>`  
-- 🔄 Add subtract-time features  
-- 💾 Logging or time history  
-- 🧪 Unit tests for edge-case rollovers  
-- 🧱 Convert into a class-based OOP model  
-- 🖥 Add CLI flags (e.g., verbose mode, auto-tick)
+- Real-time ticking using `<chrono>`  
+- Add subtract-time features  
+- Logging or time history  
+- Unit tests for edge-case rollovers  
+- Convert into a class-based OOP model  
+- Add CLI flags (e.g., verbose mode, auto-tick)
 
 ---
 
-## 💡 Why This Project Matters
+## Why This Project Matters
 This project demonstrates practical programming skills used in early engineering roles:
 
 - Modular architecture  
@@ -153,18 +153,18 @@ It functions as both an **academic milestone** and a **portfolio-ready example**
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Pull requests are welcome!  
 Please open an issue first to discuss major changes.
 
 ---
 
-## 📄 License
+## License
 This project is distributed under the **MIT License**.
 
 ---
 
-## 👤 Contact
+## Contact
 **Erica Kinch**  
 📧 ek.does.tech@gmail.com
 🔗 https://github.com/ekdoestech
